@@ -17,7 +17,6 @@ public class foreach {
 			arr[i] = scan.nextInt();
 		}
 		
-		
 		for(int x : arr) {
 			System.out.println(x);
 		}
