@@ -15,7 +15,6 @@ public class lab_1_ex5 {
 		
 		
 		
-		
 		//for triangle
 		for(i = 1; i <= 5; i++) {
 			
