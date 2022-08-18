@@ -1,10 +1,8 @@
 
-import java.util.Arrays;
-import java.util.Random;
-
 
 class RandNum{
 	int[][] array = new int[5][5];
+	int maximum = 0, minimum = 0;
 	
 	public RandNum() {
 		int i,k , rand;
@@ -22,9 +20,7 @@ class RandNum{
 	}
 	public void showArr() {
 
-		int i,k , rand;
-		double random;
-		
+		int i,k;
 		
 		for(i = 0; i <5; i++) {
 			for(k = 0; k < 5;k++) {
@@ -35,12 +31,12 @@ class RandNum{
 		
 	}
 	
-	public void calculate() {
+	public double calculate() {
 		int i, k, x;
-		int maximum = 0, minimum = 0;
+		int[] store = {array[0][0],array[0][0],array[0][0]};
 		double avg;
 		int total = 0;
-		int[] store = {array[0][0],array[0][0],array[0][0]};
+		
 		
 		for(i = 0; i < 5; i++ ) {
 			for(k = 0;k < 5; k++) {
@@ -50,13 +46,13 @@ class RandNum{
 				//check the maximum value
 				if(store[0] <= x) {
 					maximum = x;
-					store[0] = x;
+				
 				}
 				
 				//check the minimum value
 				if(store[1] >= x) {
 					minimum = x;
-					store[1] = x;
+				
 				}
 				
 				//store the sum of all values in the array
@@ -65,12 +61,13 @@ class RandNum{
 		}
 		
 		avg = total/25.0;
-		
+		return avg;
+			
+	}
+	public void showCal() {
 		System.out.println("Maximum is " + maximum);
 		System.out.println("Minimum is " + minimum);
-		System.out.println("Average is " + avg);
-		
-		
+		System.out.println("Average is " + calculate());
 	}
 }
 
@@ -79,5 +76,6 @@ public class MyMain {
 		RandNum num = new RandNum();
 		num.showArr();
 		num.calculate();
+		num.showCal();
 	}
 }
