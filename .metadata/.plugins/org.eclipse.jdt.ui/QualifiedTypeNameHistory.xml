@@ -14,8 +14,9 @@
     <fullyQualifiedTypeName name="Employee"/>
     <fullyQualifiedTypeName name="Emp"/>
     <fullyQualifiedTypeName name="java.awt.Checkbox"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Rectangle"/>
+    <fullyQualifiedTypeName name="RoomChargeCalculator"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
