@@ -22,5 +22,6 @@ public class foreach {
 			System.out.println(x);
 		}
 		System.out.print(Arrays.toString(arr));
+		
 	}
 }
