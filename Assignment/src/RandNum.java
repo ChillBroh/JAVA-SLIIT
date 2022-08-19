@@ -12,7 +12,6 @@ public class RandNum {
                 random = Math.random() * 100;
                 rand = (int) random + 1;
                 array[i][k] = rand;
-                
             }
         }
 
