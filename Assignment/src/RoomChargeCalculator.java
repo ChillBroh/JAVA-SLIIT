@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class RoomChargeCalculator{
+class Room_Charge{
 	
 	final int Deluxdouble = 5000;
 	final int StandardFamily = 3000;
@@ -69,7 +69,7 @@ class RoomChargeCalculator{
 }
 
 
-public class Room_charge {
+public class RoomChargeCalculator {
 	//main method
 	public static void main(String[] args) {
 		
