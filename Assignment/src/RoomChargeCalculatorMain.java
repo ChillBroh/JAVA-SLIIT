@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RoomChargeCalculatorMain {
     //main method
-    public static void main(String[] args) {
+    public static void main(String args[]) {
 
         String balcony, parking, tv, kitchen, wifi, garden, ac; //declare variables to store the user selection
         boolean confirmBalcony, confirmParking, confirmTv, confirmKitchen, confirmWifi, confirmGarden, confirmac;

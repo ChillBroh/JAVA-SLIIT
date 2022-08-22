@@ -18,3 +18,4 @@ public class Tute_2_EX2 {
 		System.out.println("The distant is : "+ p1.distance());
 	}
 }
+
