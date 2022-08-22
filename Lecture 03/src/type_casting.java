@@ -16,5 +16,6 @@ public class type_casting {
 		
 		int r = (int)125.7;
 		System.out.println(r);
+		
 	}
 }
