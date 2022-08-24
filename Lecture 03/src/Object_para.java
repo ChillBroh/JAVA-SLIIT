@@ -22,9 +22,9 @@ public class Object_para {
 		System.out.println("Salary is " + sal);
 	}
 	void show(Object_para x) {
-		System.out.println("name is " + name);
-		System.out.println("age is " + age);
-		System.out.println("Salary is " + sal);
+		System.out.println("name is " + x.name);
+		System.out.println("age is " + x.age);
+		System.out.println("Salary is " + x.sal);
 	}
 	
 
