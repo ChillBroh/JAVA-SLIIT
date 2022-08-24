@@ -4,6 +4,8 @@ public class object_paraMain {
 		Object_para p1 = new Object_para("Kamal", 25, 8000.0);
 		Object_para p2 = new Object_para();
 		
+		p1.show();
+		System.out.println("********************");
 		
 		
 	}
