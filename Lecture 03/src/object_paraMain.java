@@ -6,7 +6,9 @@ public class object_paraMain {
 		
 		p1.show();
 		System.out.println("********************");
-		
+		p1.show(p2);
+		System.out.println("********************");
+		p2.show(p1);
 		
 	}
 }
