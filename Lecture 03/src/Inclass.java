@@ -16,7 +16,7 @@ public class Inclass {
 	}
 	
 	double volume() {
-		return width * height * length;
+		return  width * height * length;
 	}
 	
 	
