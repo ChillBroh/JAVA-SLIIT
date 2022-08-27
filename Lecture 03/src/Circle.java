@@ -5,7 +5,7 @@ public class Circle extends Shape{
 	Circle(int radius){
 		this.r = radius;
 	}
-	public int clacArea() {
+	public int calcArea() {
 		return (int)(2 * 3.14 * r *r) ; 
 	}
 }
