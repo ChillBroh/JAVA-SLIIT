@@ -1,5 +1,5 @@
 
-public class Rectangle {
+public class Rectangle extends Shape{
 private int len, wid;
 	Rectangle(int l, int w){
 		this.len = l;
