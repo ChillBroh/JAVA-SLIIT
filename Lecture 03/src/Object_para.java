@@ -2,7 +2,7 @@
 public class Object_para {
 	String name;
 	int age;
-	double sal;
+	double sal; 
 	
 	
 	
