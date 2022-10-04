@@ -8,4 +8,6 @@ public interface Interface01 {
 	public int getArea();
 	//no want to write as abstract public int getArea() cause interface methods are always abstract
 	
+	public int getPerimeter(int x);
+	void display();
 }
