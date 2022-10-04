@@ -10,9 +10,9 @@ abstract public class Shape { //one method in abstract class is abstract so we m
 //		public int getArea() {
 //			return 0;
 //		}
-	
-
-	public class Rectangle extends Shape{
 		
-	}
-}
+		abstract public int getPeri(int x);
+}	
+
+
+
