@@ -10,5 +10,6 @@ public class object_paraMain {
 		System.out.println("********************");
 		p1.show(p2); 
 		
+		
 	}
 }
