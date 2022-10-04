@@ -10,5 +10,6 @@ public class runtime_error {
 			System.out.println("x is " + x);
 			int y = a /(b+c);
 			System.out.println("y" + y);
+			
 		}
 }
