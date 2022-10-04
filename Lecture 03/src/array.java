@@ -14,6 +14,7 @@ public class array {
 		int[] multi2 [] = new int[5][5];
 		int multi3 [][]= new int [5][5];
 		int multi4 [][] = new int[][] {{10,20,30},{5,10,15}};//cannot add [2][3] when array is initialised
+		System.out.println(Arrays.toString(multi4));
 		System.out.println(Arrays.deepToString(multi4));
 		 
 	

@@ -25,6 +25,7 @@ public class Object_para {
 		System.out.println("name is " + x.name);
 		System.out.println("age is " + x.age);
 		System.out.println("Salary is " + x.sal);
+		
 	}
 	
 
