@@ -1,7 +1,6 @@
-import Lec_5.MathOp;
-import Lec_5.try_catch;
+package Lec_5;
 
-public class MathopMain {
+public class MathOpMain {
 	public static void main(String[] args) {
 		try {
 			MathOp math = new MathOp();

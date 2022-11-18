@@ -1,4 +1,3 @@
-package lec_4;
 
 public class Animal_main {
 	public static void main(String[] args) {

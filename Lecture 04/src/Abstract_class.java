@@ -1,4 +1,4 @@
-package lec_4;
+
 
 import java.awt.Rectangle;
 
